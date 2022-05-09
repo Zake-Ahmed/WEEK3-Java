@@ -1,0 +1,5 @@
+package com.qa.mortgage;
+
+public class MortgageCalculator {
+
+}

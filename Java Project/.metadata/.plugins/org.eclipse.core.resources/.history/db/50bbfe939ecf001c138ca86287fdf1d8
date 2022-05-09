@@ -1,0 +1,14 @@
+package com.qa.helloworld11;
+
+public class Shapes {
+	public static String returnSquare() {
+		return "Square";
+		
+	}
+	public static String returnCircle() {
+		return "Circle";
+	}
+	public static String returnTriangle() {
+		return "Trinagle";
+	}
+}

@@ -1,0 +1,30 @@
+package com.qa.helloworld;
+
+public class HelloWorld {
+	public static void printMessage1() {
+		String M1="HELLO--WORLD!!";
+		System.out.println(M1);
+				
+	}
+    public static void printMessage2(String M2) {
+    	System.out.println(M2);
+		
+	}
+	public static void main(String[] args) {
+		System.out.println("HEllOWORLD");
+	
+		String message="HELLO-WORLD!";
+		System.out.println(message);
+		printMessage1();
+		printMessage2("HELLO---WORLD!!!");
+		String [] items = {"nodk ","qedaf ", "daref"};
+		for (String i : items){
+		    System.out.print(i);
+		}
+					
+		
+		
+		
+	}
+
+}
