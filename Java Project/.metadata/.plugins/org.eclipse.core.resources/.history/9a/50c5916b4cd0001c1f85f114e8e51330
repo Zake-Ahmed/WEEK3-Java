@@ -1,0 +1,37 @@
+package com.qa.week3.day2.parameter;
+
+public class Calculator {
+	public static String addThreeNum(int x , int y , int z) {
+		return Integer.toString(x) + " + " + Integer.toString(y) + " + " + Integer.toString(z) + " = " + Integer.toString(x+y+z);
+	}
+	public static int  minusTwoNum(int x , int y) {
+		int result = x-y;
+		if (x-y<0) {
+			System.out.println("You can't subtract that");
+		}
+		return result;
+	}
+	public static int multiTwoNum(int x , int y) {
+	
+		int result = x*y;
+		if (y==10 || x==10) {
+			System.out.println("thats too easy to use a calculator for");
+		}
+		return result;	
+		}
+	public static void divTwoNum(int x , int y) {
+		
+		if (y==0) {
+			System.out.println("You can't divide by 0");
+		}else {
+			int result = x/y;
+			System.out.println(result);
+		}
+		
+	}
+	public static String squareNum(int x) {
+		return Integer.toString(x) + "\u00b2" + " = " + Integer.toString( (int) Math.pow(x, 2));
+	}
+
+
+}

@@ -1,0 +1,22 @@
+package com.qa.week3.day2.parameter;
+
+public class Calculator {
+	public static String addThreeNum(int x , int y , int z) {
+		int result = x+y+z;
+		return Integer.toString(x) + " + " + Integer.toString(y) + " + " + Integer.toString(z) + " = " + Integer.toString(result);
+	}
+	public static int minusTwoNum(int x , int y) {
+		return x-y;
+	}
+	public static int multiTwoNum(int x , int y) {
+		return x*y;
+	}
+	public static int divTwoNum(int x , int y) {
+		return x/y;
+	}
+	public static String printSum(int x , int y) {
+		int result = x+y;
+		return Integer.toString(x)+ " + " + Integer.toString(y) + " = " + Integer.toString(result);
+	}
+
+}

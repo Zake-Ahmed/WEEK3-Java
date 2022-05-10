@@ -1,0 +1,26 @@
+package com.qa.week3.day2.parameter;
+
+public class Calculator {
+	public static String addThreeNum(int x , int y , int z) {
+		return Integer.toString(x) + " + " + Integer.toString(y) + " + " + Integer.toString(z) + " = " + Integer.toString(x+y+z);
+	}
+	public static int  minusTwoNum(int x , int y) {
+		int result = x-y;
+		if (x-y<0) {
+			System.out.println("You can't subtract that");
+		}
+		return result;
+	}
+	public static String multiTwoNum(int x , int y) {
+	
+		return Integer.toString(x) + " x " + Integer.toString(y) + " = " + Integer.toString(x*y);
+	}
+	public static String divTwoNum(int x , int y) {
+		return Integer.toString(x)+ " / " + Integer.toString(y) + " = " + Integer.toString(x/y);
+	}
+	public static String squareNum(int x) {
+		return Integer.toString(x) + "\u00b2" + " = " + Integer.toString( (int) Math.pow(x, 2));
+	}
+
+
+}

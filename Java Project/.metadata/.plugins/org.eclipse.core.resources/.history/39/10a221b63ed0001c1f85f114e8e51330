@@ -1,0 +1,12 @@
+package com.qa.week3.day2;
+
+import com.qa.week3.day2.parameter.*;
+
+public class Runner {
+	
+	public static void main(String[] args) {
+		System.out.println(BasicCalculator.name("Zake", "Monday"));
+		System.out.println(Calculator.printSum(4,3));
+	}
+
+}
