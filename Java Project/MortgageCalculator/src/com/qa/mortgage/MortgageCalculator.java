@@ -27,17 +27,7 @@ public class MortgageCalculator {
 			return result;
 		}
 	}
-	public static void main(String[] args) {
-		float[] finalValue = new float [3];
-		int [] array= {0,1,2};
-		finalValue = calculator();
-		System.out.println("=========================");
-		System.out.println("Saved values");
-		for (int i : array) {
-			System.out.println('£' + String.format("%.2f",finalValue[i]));
-		}
-		
-	}
+	
 
 }
 

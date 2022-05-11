@@ -3,4 +3,5 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.qa.helloworld11.ex.PrintName"/>
+    <fullyQualifiedTypeName name="com.qa.week3.day3.functions.ForLoops"/>
 </qualifiedTypeNameHistroy>
