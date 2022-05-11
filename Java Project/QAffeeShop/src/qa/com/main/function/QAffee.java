@@ -7,10 +7,11 @@ import java.util.List;
 public class QAffee {
 	public static List<String> orders = new ArrayList<>();
 
-	public static void addOrder(String order) {
+	public static boolean addOrder(String order) {
 		System.out.println("Adding " + order + " to Order");
-		orders.add(order);
 		System.out.println("--------------------------------------------");
+		return orders.add(order);
+		
 	}
 
 	public static String returnOrder(int i) {
@@ -20,34 +21,37 @@ public class QAffee {
 
 	}
 
-	public static void updateOrder(int i, String order) {
+	public static String updateOrder(int i, String order) {
 		String a = orders.get(i);
-		orders.set(i, order);
 		System.out.println("Order " + a + " changed to " + orders.get(i));
 		System.out.println("--------------------------------------------");
+		return orders.set(i, order);
 	}
 
-	public static void deleteOrder(int i) {
+	public static String deleteOrder(int i) {
 		System.out.println("Removing " + orders.get(i));
-		orders.remove(i);
 		System.out.println("--------------------------------------------");
+		return orders.remove(i);
 
 	}
 
-	public static void printOrder() {
+	public static List<String> printOrder() {
 		System.out.println(orders);
 		System.out.println("--------------------------------------------");
+		return orders;
 	}
 
-	public static void clearOrder() {
-		orders.clear();
+	public static boolean clearOrder() {
 		System.out.println("All orders cleared");
 		System.out.println("--------------------------------------------");
+		orders.clear();
+		return true;
 	}
-	public static void sortOrder() {
+	public static List<String> sortOrder() {
 		Collections.sort(orders);
 		System.out.println("Orders after sorting " + orders);
 		System.out.println("--------------------------------------------");
+		return orders;
 	}
 
 }
