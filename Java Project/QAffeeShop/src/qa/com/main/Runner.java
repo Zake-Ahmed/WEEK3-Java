@@ -4,9 +4,15 @@ import qa.com.main.function.QAffee;
 
 public class Runner {
 	public  static void main(String[] args) {
+		QAffee.addOrder("Venti Latte");
+		QAffee.addOrder("soy");
+		QAffee.addOrder("cappucino");
+		QAffee.printOrder();
 		QAffee.addOrder("flat white");
 		QAffee.updateOrder(1, "latte");
-		
+		QAffee.deleteOrder(0);
+		QAffee.printOrder();
+		QAffee.sortOrder();
 		
 	}
 
