@@ -36,14 +36,14 @@ public class ForLoops {
 	public static void coin(float pay, float cost) {
 		float change = pay - cost;
 		// change=Math.round(change*100)/100;
-		int coinNum=0;
+		//int coinNum=0;
 		while (change >= 0) {
 			for (float i = change; i >= 50; i -= 50) {
-				//System.out.println("£50");
+				System.out.println("£50");
 				change -= 50;
-				coinNum ++;
+				//coinNum ++;
 				
-			} System.out.println(coinNum + " £50");
+			} //System.out.println(coinNum + " £50");
 			for (float i = change; i >= 20; i -= 20) {
 				System.out.println("£20");
 				change -= 20;
@@ -78,12 +78,12 @@ public class ForLoops {
 				System.out.println("10p");
 				change -= 0.1;
 			}
-			for (float m = change; m >= 0.02; m -= 0.02) {
+			for (float m = change; m >= 0.019; m -= 0.02) {
 				System.out.println("2p");
 				change -= 0.02;
 			}
 
-			for (float n = change; n >= 0.009; n -= 0.01) {
+			for (float n = change; n > 0.009; n -= 0.01) {
 				System.out.println("1p");
 				change -= 0.01;
 			}

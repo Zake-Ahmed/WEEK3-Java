@@ -8,8 +8,9 @@ public class Runner {
 //		ForLoops.flowChart2();
 //		ForLoops.exercise3();
 //		ForLoops.exercise4();
-		ForLoops.coin(123.54f,46.58f);
-		
+		ForLoops.coin(123.54f,46.08f);
+		String [] a = {"1122","1122"};
+		System.out.println(a);
 	}
 
 }
