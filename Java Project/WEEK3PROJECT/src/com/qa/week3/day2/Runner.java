@@ -23,7 +23,7 @@ public class Runner {
 //		System.out.println(Taxes.percentage(20000D));
 //		System.out.println(Taxes.taxedPayed(20000D));
 //		System.out.println(Taxes.combine(2000000D));
-////		Loop.moneySpend(300, 23.50f, 40);
+//		Loop.moneySpend(300, 23.50f, 40);
 //		Loop.moneySpend2(300, 35, 10, 40);
 	}
 
