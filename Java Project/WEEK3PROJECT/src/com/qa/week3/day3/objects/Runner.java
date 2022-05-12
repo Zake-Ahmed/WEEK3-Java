@@ -8,6 +8,7 @@ public class Runner {
 		System.out.println(newCar.colour);
 		newCar.manual=false;
 		System.out.println(newCar.manual);
+		System.out.println(newCar);
 
 	}
 

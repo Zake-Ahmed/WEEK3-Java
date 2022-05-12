@@ -16,6 +16,12 @@ public class Car {
 		
 		
 	}
+
+	@Override
+	public String toString() {
+		return "Car [colour=" + colour + ", year=" + year + ", seats=" + seats + ", weight=" + weight + ", manual="
+				+ manual + "]";
+	}
 	
 
 }
