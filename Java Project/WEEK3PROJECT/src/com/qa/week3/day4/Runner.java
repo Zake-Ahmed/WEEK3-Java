@@ -2,6 +2,7 @@ package com.qa.week3.day4;
 
 import com.qa.week3.day4.encapsulation.*;
 import com.qa.week3.day4.inheritance.*;
+import com.qa.week3.day4.polymorphism.*;
 
 @SuppressWarnings("unused")
 public class Runner {
@@ -21,6 +22,22 @@ public class Runner {
 		System.out.println(alex2.lionLocation());
 		System.out.println(alex2.roar());
 		System.out.println(alex2.hunt());
+		System.out.println("=============Cow=============");
+        Cow cow = new Cow("White",true);
+        cow.speak();
+        cow.sleep();
+        System.out.println("=============================");
+        System.out.println("============Animal===========");
+        Animal animal = new Cow("white", true);
+        ((Cow) animal).speak();
+        animal.sleep();
+        System.out.println("=============================");
+        System.out.println("============Object===========");
+        Object object = new Cow("white", true);
+        ((Cow) object).speak();
+        ((Cow) object).sleep();
+        System.out.println("=============================");
+
 
 	}
 
