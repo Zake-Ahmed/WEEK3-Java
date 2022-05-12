@@ -9,4 +9,6 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="qa.com.main.function.QAffee"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="com.qa.week3.day4.encapsulation.BankDetails"/>
+    <fullyQualifiedTypeName name="com.qa.week3.day4.polymorphism.Cow"/>
 </qualifiedTypeNameHistroy>
