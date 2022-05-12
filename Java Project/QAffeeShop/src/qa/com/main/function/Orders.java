@@ -8,6 +8,7 @@ public class Orders {
 	public boolean takeway;
 	
 	
+	
 	public Orders(int orderNum, String drink, String meal, float price, boolean takeway) {
 		
 		this.orderNum = orderNum;
@@ -15,6 +16,13 @@ public class Orders {
 		this.meal = meal;
 		this.price = price;
 		this.takeway = takeway;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Orders [orderNum=" + orderNum + ", drink=" + drink + ", meal=" + meal + ", price=" + price
+				+ ", takeway=" + takeway + "]";
 	}
 	
 	
