@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.qa.helloworld11.ex.PrintName"/>
     <fullyQualifiedTypeName name="com.qa.week3.day3.functions.ForLoops"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="qa.com.main.function.QAffee"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="com.qa.week3.day4.encapsulation.BankDetails"/>
     <fullyQualifiedTypeName name="com.qa.week3.day4.polymorphism.Cow"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.qa.garage.files.Garage"/>
+    <fullyQualifiedTypeName name="com.qa.garage.files.Car"/>
+    <fullyQualifiedTypeName name="com.qa.garage.files.Truck"/>
+    <fullyQualifiedTypeName name="com.qa.garage.files.Bike"/>
+    <fullyQualifiedTypeName name="com.qa.garage.files.Fix1"/>
 </qualifiedTypeNameHistroy>
