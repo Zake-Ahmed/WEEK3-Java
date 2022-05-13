@@ -1,0 +1,5 @@
+package com.qa.week3.day4.polymorphism;
+
+public class Cow {
+
+}

@@ -1,0 +1,55 @@
+package com.qa.week3.day4.encapsulation;
+
+public class BankDetails {
+	private String accountNum;
+	private String name;
+	private float balence;
+	private String passWord;
+
+	public BankDetails(String accountNum, String name, float balence, String passWord) {
+		super();
+		this.accountNum = accountNum;
+		this.name = name;
+		this.balence = balence;
+		this.passWord = passWord;
+	}
+
+	public String getAccountNum() {
+		return accountNum;
+	}
+
+	public void setAccountNum(String accountNum) {
+		this.accountNum = accountNum;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public float getBalence() {
+		return balence;
+	}
+
+	public String setBalence(float balence) {
+		if (balence >= 10000f) {
+			return "ERROR set too high";
+
+		} else {
+			this.balence = balence;
+			return "new balence has been set";
+		}
+	}
+
+	public String getPassWord() {
+		return passWord;
+	}
+
+	public void setPassWord(String passWord) {
+		this.passWord = passWord;
+	}
+
+}

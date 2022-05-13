@@ -1,0 +1,69 @@
+package com.qa.week3.day3.functions;
+
+public class ForLoops {
+	public static void flowChart1() {
+		for (int A = 100; A <= 200; A++) {
+			System.out.println(A);
+		}
+	}
+
+	public static void flowChart2() {
+		for (int A = 100; A <= 200; A++) {
+			if (A % 2 == 0) {
+				System.out.println('-');
+			} else {
+				System.out.println('*');
+			}
+		}
+	}
+
+	public static void exercise3() {
+		for(int i =1; i<=10; i++) {
+			for(int j=0; j<10; j++) {
+				System.out.println(i);
+			}
+		}
+	}
+	public static void exercise4() {
+		for(int i =1; i<=10; i++) {
+			for(int j=0; j<i; j++) {
+				System.out.println(i);
+			}
+		}
+	}
+	public static void coin(float pay, float cost) {
+		float change= pay-cost;
+		//change=Math.round(change*100)/100;
+		while(change>=0.01) {
+			
+			for(float i=change; i>10;i-=10) {
+				System.out.println("£10");
+				change -=10;
+			}System.out.println(change);
+			 for(float j=change; j>5;j-=5) {
+				System.out.println("£5");
+				change -=5;
+			}System.out.println(change);
+			 for(float k=change; k>1;k-=1) {
+					System.out.println("£1");
+					change -=1;
+				}System.out.println(change);
+			 for(float l=change; l>0.2;l-=0.2) {
+					System.out.println("20p");
+					change -=0.2;
+				}System.out.println(change);
+			 for(float m=change; m>0.02;m-=0.02) {
+					System.out.println("2p");
+					change -=0.02;
+				}System.out.println(change);
+			 for(float n=change; n>0.01;n-=0.01) {
+					System.out.println("1p");
+					change -=0.01;
+				}System.out.println(change);
+		}
+		System.out.println("------END OF PROGRAM------");
+		
+	}
+	
+
+}

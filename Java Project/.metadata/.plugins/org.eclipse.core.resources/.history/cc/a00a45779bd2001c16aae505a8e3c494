@@ -1,0 +1,23 @@
+package com.qa.week3.day5;
+
+import com.qa.week3.day4.inheritance.Lion;
+import com.qa.week3.day4.inheritance.LionSpecies;
+import com.qa.week3.day4.inheritance.Man;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		Man user = new Man(60f, "Brown", 2, "City", "John Doe", "Britsh");
+		Lion alex = new Lion(200f, "Yellow", 4, "Savanna", true, true);
+		System.out.println(alex.lionLocation());
+		System.out.println(alex.roar());
+		System.out.println(user.talk());
+		LionSpecies alex2 = new LionSpecies(200f, "Yellow", 4, "Savanna", true, true, "Cape");
+		System.out.println(alex2.lionLocation());
+		System.out.println(alex2.roar());
+		System.out.println(alex2.hunt());
+		
+
+	}
+
+}

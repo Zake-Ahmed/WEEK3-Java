@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;qa.com.main.function.ArrayFunctions.java&apos; to &apos;QAffee.java&apos;&#x0D;&#x0A;- Original project: &apos;QAffeeShop&apos;&#x0D;&#x0A;- Original element: &apos;qa.com.main.function.ArrayFunctions.java&apos;&#x0D;&#x0A;- Renamed element: &apos;qa.com.main.function.QAffee.java&apos;" description="Rename compilation unit &apos;ArrayFunctions.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;qa.com.main.function{ArrayFunctions.java" name="QAffee.java" references="false" stamp="1652270098279" version="1.0"/>
+</session>

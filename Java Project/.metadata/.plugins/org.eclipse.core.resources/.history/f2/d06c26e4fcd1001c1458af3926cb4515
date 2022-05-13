@@ -1,0 +1,29 @@
+package com.qa.week3.day4.inheritance;
+
+public class Lion {
+	
+	private boolean claws;
+	private String furColour;
+	public String raw() {
+		return "Lion ROARS!!!!!!!!!!";
+	}
+	public Lion(boolean claws, String furColour) {
+		super();
+		this.claws = claws;
+		this.furColour = furColour;
+	}
+	public boolean isClaws() {
+		return claws;
+	}
+	public void setClaws(boolean claws) {
+		this.claws = claws;
+	}
+	public String getFurColour() {
+		return furColour;
+	}
+	public void setFurColour(String furColour) {
+		this.furColour = furColour;
+	}
+	
+
+}

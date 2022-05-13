@@ -1,0 +1,64 @@
+package qa.com.main.function;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+@SuppressWarnings("unused")
+public class QAObject {
+	public static List<Orders> orders = new ArrayList<>();
+	
+	public static boolean addOrder(Orders order) {
+		System.out.println("Adding " + order + " to Order");
+		System.out.println("---------------------------------------------------------------------------------------------"
+				+ "---------------------------------------");
+		return orders.add(order);
+		
+	}
+
+	public static Orders returnOrder(int i) {
+		System.out.println("Order is : " + orders.get(i));
+		System.out.println("---------------------------------------------------------------------------------------------"
+				+ "---------------------------------------");
+		return orders.get(i);
+
+	}
+
+	public static Orders updateOrder(int i, Orders order) {
+		Orders a = orders.get(i);
+		System.out.println("Order " + a + " changed to " + orders.get(i));
+		System.out.println("---------------------------------------------------------------------------------------------"
+				+ "---------------------------------------");
+		return orders.set(i, order);
+	}
+
+	public static Orders deleteOrder(int i) {
+		System.out.println("Removing " + orders.get(i));
+		System.out.println("---------------------------------------------------------------------------------------------"
+				+ "---------------------------------------");
+		return orders.remove(i);
+
+	}
+
+	public static List<Orders> printOrder() {
+		System.out.println(orders);
+		System.out.println("---------------------------------------------------------------------------------------------"
+				+ "---------------------------------------");
+		return orders;
+	}
+
+	public static boolean clearOrder() {
+		System.out.println("All orders cleared");
+		System.out.println("---------------------------------------------------------------------------------------------"
+				+ "---------------------------------------");
+		orders.clear();
+		return true;
+	}
+//	public static List<Orders> sortOrder() {
+//		Collections.sort(orders.subList( 0, 0));
+//		System.out.println("Orders after sorting " + orders);
+//		System.out.println("--------------------------------------------");
+//		return orders;
+//	}
+
+}

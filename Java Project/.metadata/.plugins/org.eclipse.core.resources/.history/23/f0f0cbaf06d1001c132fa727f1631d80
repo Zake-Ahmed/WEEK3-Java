@@ -1,0 +1,10 @@
+package com.qa.week3.day3.functions;
+
+public class ForLoops {
+	public static void flowChart1() {
+		for (int A=100; A<200; A++) {
+			System.out.println(A);
+		}
+	}
+
+}

@@ -1,0 +1,8 @@
+package com.qa.week3.day5.abstraction;
+
+public class Snippet {
+	public static void main(String[] args) {
+		Abstraction
+	}
+}
+

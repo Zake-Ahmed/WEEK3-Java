@@ -1,0 +1,16 @@
+package com.qa.week3.day3.functions;
+
+public class Array {
+	public static void exersise1() {
+		String[] colour = { "Red", "Blue", "Green", "Yellow", "Black" };
+		for (int i = 0; i < colour.length; i++) {
+			System.out.print(colour[i] + " ");
+		}System.out.println("     ");
+		for (int i = 0; i < colour.length; i++) {
+			if (colour[i] == "Green") {
+				System.out.println("Favorite clolur is  " + colour[i]);
+			}
+		}
+
+	}
+}

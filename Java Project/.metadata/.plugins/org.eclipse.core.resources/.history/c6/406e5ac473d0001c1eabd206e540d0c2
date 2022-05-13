@@ -1,0 +1,12 @@
+package com.qa.week3.day2.parameter;
+
+public class Loop {
+	public static void method(int s, float e, int l ) {
+		while (s>l) {
+			s -= e;
+			System.out.println("New Balence" + s);
+		}
+		System.out.println("STOP SPENDING MONEY!!");
+	}
+
+}

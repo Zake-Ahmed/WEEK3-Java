@@ -1,0 +1,37 @@
+package qa.com.main.function;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class QAffee {
+	public List<String> orders = new ArrayList<>();
+	public void addOrder(String order) {
+		System.out.println("Adding " + order + " to ArrayList");
+		orders.add(order);
+		
+	}
+	public String returnOrder(int i) {
+		System.out.println(orders.get(i));
+		return orders.get(i);
+	}
+	public void updateOrder(int i , String order) {
+		orders.set(i, order);
+		
+	}
+	public void deleteOrder(int i) {
+		System.out.println("Removing " + orders.get(i));
+		orders.remove(i);
+		
+	}
+	public void printOrder() {
+		System.out.println(orders);
+	}
+	public void clearOrder() {
+		orders.clear();
+	}
+	
+	
+	
+	
+
+}

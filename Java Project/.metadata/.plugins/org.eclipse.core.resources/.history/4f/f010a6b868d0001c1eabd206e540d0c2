@@ -1,0 +1,31 @@
+package com.qa.week3.day2.parameter;
+
+public class Taxes {
+	public static int method1(int x) {
+		if (x<=14999) {
+			return 0;
+		} else if (x<=19999) {
+			return 10;
+		} else if (x<=29999) {
+			return 15;
+		} else if (x<=44999) {
+			return 20;
+		} else {
+			return 25;
+		}
+	}
+	public static float method2(int x) {
+		if (x<=14999) {
+			return 0;
+		} else if (x<=19999) {
+			return 0.1f*x;
+		} else if (x<=29999) {
+			return 0.15f*x;
+		} else if (x<=44999) {
+			return 0.20f*x;
+		} else {
+			return 0.25f*x;
+		}
+	}
+
+}

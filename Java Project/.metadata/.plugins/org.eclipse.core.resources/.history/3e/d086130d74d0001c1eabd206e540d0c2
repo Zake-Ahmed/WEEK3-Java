@@ -1,0 +1,22 @@
+package com.qa.week3.day2.parameter;
+
+import java.util.Random;
+
+public class Loop {
+	public static void method(int s, float e, int l ) {
+		while (s>l) {
+			s -= e;
+			System.out.println("New Balence " + s);
+		}
+		System.out.println("STOP SPENDING MONEY!!");
+	}
+	public static void method2(int s, int l ) {
+		while (s>l) {
+			e= 
+			s -= e;
+			System.out.println("New Balence " + s);
+		}
+		System.out.println("STOP SPENDING MONEY!!");
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.qa.week3.day4;
+
+import com.qa.week3.day4.encapsulation.BankDetails;
+
+public class Runner { 
+	public static void main(String[] args) {
+		BankDetails user1 = new BankDetails("3928572380", "ZakeFAhmed", 10000f, "jhbfljweafb");
+		System.out.println(user1.setBalence(1000000f));
+	
+	}
+
+}
